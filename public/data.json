@@ -29,6 +29,10 @@
             {
                 "name": "PPT Control",
                 "description": "Application developed to control PowerPoint presentations, using the cell phone as a remote control"
+            },
+            {
+                "name": "API-TNE",
+                "description": "API developed to obtain information from the TNE card"
             }
         ],
         "studiesTitle": "Studies",
@@ -76,6 +80,10 @@
             {
                 "name": "PPT Control",
                 "description": "Aplicación desarrollada para controlar presentaciones de PowerPoint, utilizando el celular como control remoto"
+            },
+            {
+                "name": "API-TNE",
+                "description": "API desarrollada para obtener información de la tarjeta TNE"
             }
         ],
         "studiesTitle": "Estudios",
