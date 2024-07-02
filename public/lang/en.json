@@ -1,0 +1,43 @@
+{
+    "home": "Home",
+    "projects": "Projects",
+    "studies": "Studies",
+    "contact": "Contact",
+    "title": "Hello, I'm Juan Molina",
+    "subtitle": "Full Stack Developer",
+    "description": "Computer Engineering student with experience in application development and a focus on creating efficient and scalable solutions, I have carried out projects in various areas, from web development to mobile applications",
+    "projectsTitle": "Projects",
+    "curriculum": "See CV",
+    "projectsList": [
+        {
+            "name": "Autophagos",
+            "description": "This application uses Puppeteer to automate navigation and find phages in contig sequences. The application uses Electron to create a user interface and perform inter-process communication."
+        },
+        {
+            "name": "DevFusion",
+            "description": "Text editor developed with Pywebview and Preact"
+        },
+        {
+            "name": "MusicPLayer",
+            "description": "Music player developed with Electron and Preact"
+        },
+        {
+            "name": "API-TNE",
+            "description": "API developed to obtain information from the TNE card"
+        }
+    ],
+    "studiesTitle": "Studies",
+    "studiesInfo": [
+        {
+            "name": "INACAP",
+            "date": "2021 - 2024",
+            "description": "Computer Programmer"
+        },
+        {
+            "name": "INACAP",
+            "date": "2021 - Present",
+            "description": "Computer Engineering"
+        }
+       
+    ]
+}

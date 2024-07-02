@@ -1,13 +1,20 @@
 {
-  "name": "porfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "language.js",
+  "name": "portfolio",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "firebase deploy"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "firebase deploy",
+    "firebase": "firebase"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@tabler/icons-webfont": "^3.7.0",
+    "astro": "^4.11.3",
+    "firebase": "^10.12.2",
+    "firebase-tools": "^13.12.0"
+  }
 }

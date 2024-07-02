@@ -1,0 +1,84 @@
+<section id="presentacion">
+    <div>
+        <h1 id="title"> </h1>
+        <h2 id="subtitle"></h2>
+        <p id="description"></p>
+        <a id="curriculum" href="https://drive.google.com/file/d/19KAL1LlDlsffYiYKYGWm9B1G1DpsN2K_/preview"
+            target="_blank">
+            Ver CV
+        </a>
+    </div>
+    <img src="./imagenes/imagen_2024-03-05_230012616-removebg-preview.png" width="300" alt="">
+</section>
+<style>
+    #presentacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-block: 100px;
+}
+
+#presentacion p {
+    max-width: 500px;
+    text-wrap: balance;
+    opacity: 0.8;
+}
+
+#presentacion div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#presentacion button {
+    width: fit-content;
+
+}
+
+@media (max-width: 768px) {
+    #presentacion {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #presentacion div {
+        align-items: center;
+
+    }
+
+    #presentacion p,
+    #presentacion h1,
+    #presentacion h2 {
+        text-align: center;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    header a[target = "_blank"], header details{
+        display: none;
+    }
+    #projectsTitle {
+        
+        display: block;
+    }
+}
+#curriculum {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5e667780;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#curriculum:hover {
+    background-color: #5e6677;
+    transition: all 0.3s;
+}
+</style>
