@@ -1,20 +1,20 @@
 {
-  "name": "portfolio",
+  "name": "pf",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "deploy": "firebase deploy",
-    "firebase": "firebase"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "firebase deploy"
   },
   "dependencies": {
-    "@tabler/icons-webfont": "^3.7.0",
-    "astro": "^4.11.3",
-    "firebase": "^10.12.2",
-    "firebase-tools": "^13.12.0"
+    "preact": "^10.22.0",
+    "react-router-dom": "^6.24.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.2",
+    "vite": "^5.3.1"
   }
 }
